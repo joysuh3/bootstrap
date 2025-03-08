@@ -1,0 +1,267 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+/* Common style for all nav links */
+
+/* Common style for all nav links */
+.nav-link {
+	
+   font-family: "Courier New", monospace;
+   font-size: 18px;
+    color: #000 !important;  /* Black text */
+    text-decoration: none !important;  /* Remove underline */
+    font-weight: bold;  /* Make the text bold */
+    transition: color 0.3s, background-color 0.3s;  /* Smooth transition */
+padding-top: 10px;
+margin-left: 15px;
+margin-right: 15px;
+}
+
+/* Hover, focus, and active link styling */
+.nav-link:hover,
+.nav-link:focus,
+.nav-link.active {
+    color: #fff !important;  /* White text on hover, focus, and active */
+    background-color: #ff66bd !important;  /* Pink background */
+    text-decoration: underline !important;  /* Underline effect */
+}
+
+/* Active link specific style */
+.nav-link.active {
+    background-color: #e60986 !important;  /* Stronger pink for active link */
+}
+
+/* Ensure no default blue color for links */
+.nav-link:active {
+    background-color: #c2185b !important;  /* Darker pink for active state */
+    text-decoration: underline !important;  /* Underline effect */
+}
+
+.navbar {
+	margin-top: 50px;
+}
+
+nav {
+  position: relative;
+  top: 40px;  /* Moves the navbar down */
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #e60986;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: "Courier New", monospace;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+h2 {
+    color: #ff66bd;
+    text-transform: uppercase;
+    font-family: "Courier New", monospace;
+    max-width: 1200px; /* Adjust the width of text content */
+    margin: 0 auto; /* Center text block */
+    text-align: left; /* Align text to the left */
+     font-size: 30px; 
+     padding-bottom: 10px;
+     font-weight: bold;
+}
+
+
+
+.intro {
+    text-align: left;
+    font-family: "Andale Mono", monospace;
+    padding-bottom: 10px;
+    color: #fc9dcb;
+
+}
+
+
+
+.contact, .ext, .at {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Courier New", monospace;
+    margin-bottom: 0; /* Removes space below contact section */
+    padding-bottom: 0; /* Removes padding below contact section */
+}
+
+.clinks{
+    font-family: "Andale Mono", monospace;
+    text-align: left;
+    padding-bottom: 85px; /* Removes bottom padding */
+    margin-top: 0; /* Removes space above clinks section */
+}
+
+
+.des, .ed, .ex, .exl, .sl, .ext, .ref, .hil {
+    font-family: "Andale Mono", monospace;
+    font-size: 15px;
+    max-width: 1200px; /* Adjust the width of text content */
+    margin: 0 auto; /* Center text block */
+    text-align: left; /* Align text to the left */
+    padding-bottom: 18px;
+}
+
+
+
+
+.edt, .ext {
+    padding-top: 5px;
+}
+
+
+.ed { 
+	padding-bottom: 25px;
+
+}
+
+.ex {
+    color: #fc9dcb;
+}
+
+.hil {
+    padding-top: 5px;
+    padding-bottom: 20px;
+  text-align: left;
+}
+
+.skills {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.contact strong, .ext strong, .at strong, .edt strong{
+    color: #000000;
+    font-family: "Courier New", monospace;
+    text-shadow: 1px 1px 0px #fc9dcb;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Courier New", monospace;
+    margin-bottom: 0; /* Removes space below contact section */
+    padding-bottom: 0; /* Removes padding below contact section */
+
+}
+
+a:link { color: #facde6; }
+a:visited { color: #facde6; }
+a:hover { color: #ff66bd; text-decoration: underline; }
+a:active { color: #facde6; }
+a:focus { outline: 2px solid #ff66bd; }
+
+    body {
+    background-image: url("images/pinkb.png");
+    background-repeat: no-repeat;
+    background-size: auto 120%; /* Ensures full coverage without stretching */
+    background-position: center center; /* Keeps it centered */
+    background-attachment: scroll; /* Removes fixed scrolling */
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+    width: 100%;
+    padding-top: 50px; /* Added padding to the top of the page */
+    padding-bottom: 170px; /* Keeps the bottom padding */
+}
+
+
+
+
+
+.container {
+    max-width: 1300px; /* Adjust the width of text content */
+    margin: 0 auto; /* Center the container */
+    padding-left: 0;
+}
+
+/* Flex layout for the pair elements to appear next to each other */
+.pair {
+    display: flex;
+    justify-content: flex-start; /* Align elements to the left */
+    margin-bottom: 15px; /* Adds spacing between each pair */
+}
+
+/* Styling for the award titles (left side) */
+.at {
+    font-family: "Andale Mono", monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 5px; /* Small margin to adjust space between title and dash */
+}
+
+/* Styling for the dash */
+.dash {
+    font-family: "Andale Mono", monospace;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 5px; /* Adjusts space between dash and description */
+}
+
+/* Styling for the award descriptions (right side) */
+.ad {
+    font-family: "Andale Mono", monospace;
+    font-size: 15px;
+    color: #fc9dcb; /* Light pink color for description */
+}
+
+
+
+
+li.hobbies, li.skillslist, li.explist {
+    list-style: none;
+    background-image: url('images/hearbullet.png');
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    padding-left: 24px;
+    line-height: 1.5;
+}
+
+ul {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.col-md-6 {
+    padding-left: 20px;
+}
+
+
+/* Specific styles for "Awards & Recognitions" section remain unchanged */
+h2.ar {
+    text-align: left;  /* Keeps original alignment */
+    color: #ff66bd;  /* Keeps original color */
+    font-family: "Courier New", monospace; /* Keeps original font */
+} 
+
+
+.description {
+	padding-top: 0;
+}
+.hk-logo {
+	width:150px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+.hk-hero {
+    width: 600px;
+    padding-bottom: 30px;
+    padding-top: 0;
+    margin-left: -1px; /* Adjust the value to move it further left */
+}
+
+
+
+
